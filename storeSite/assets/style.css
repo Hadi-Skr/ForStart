@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
